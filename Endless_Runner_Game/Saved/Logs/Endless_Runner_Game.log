@@ -1504,3 +1504,878 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.02.22-21.58.21:188][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 257 ms (total: 2.17 sec)
 [2024.02.22-21.58.21:191][283]AssetCheck: New page: Asset Save: Runner_Map
 [2024.02.22-21.58.21:191][283]LogContentValidation: Display: Validating /Script/Engine.World /Game/Runner/Maps/Runner_Map.Runner_Map
+[2024.02.22-22.00.22:268][946]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.00.22:285][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.00.22:294][946]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:00:22)
+[2024.02.22-22.00.22:298][946]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.00.22:301][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003340s)
+[2024.02.22-22.00.22:302][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.003420s)
+[2024.02.22-22.00.22:320][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.02.22-22.00.22:323][946]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.00.22:323][946]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.00.22:324][946]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.00.22:324][946]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2024.02.22-22.00.22:327][946]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.02.22-22.00.22:328][946]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.00.22:328][946]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.00.22:328][946]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.00.22:328][946]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.00.22:328][946]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.00.22:328][946]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.00.22:328][946]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.00.22:328][946]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.00.22:334][946]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.00.22:334][946]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.00.22:334][946]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.00.22:340][946]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.00.22:407][946]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.00.22:411][946]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.00.22:411][946]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.00.22:412][946]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.00.22:416][946]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.02.22-22.00.22:416][946]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.02.22-22.00.22:419][946]LogInit: FAudioDevice initialized with ID 4.
+[2024.02.22-22.00.22:419][946]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.02.22-22.00.22:419][946]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.02.22-22.00.22:419][946]LogAudio: Display: Audio Device (ID: 4) registered with world 'Runner_Map'.
+[2024.02.22-22.00.22:420][946]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.02.22-22.00.22:440][946]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.00.22:442][946]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.00.22
+[2024.02.22-22.00.22:442][946]LogWorld: Bringing up level for play took: 0.001296
+[2024.02.22-22.00.22:454][946]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.02.22-22.00.22:525][946]PIE: Server logged in
+[2024.02.22-22.00.22:527][946]PIE: Play in editor total start time 0,248 seconds.
+[2024.02.22-22.01.32:352][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.01.36:317][224]Cmd: restartlevel
+[2024.02.22-22.01.36:318][224]LogNet: Browse: /Game/Runner/Maps/Runner_Map?restart
+[2024.02.22-22.01.36:318][224]LogLoad: LoadMap: /Game/Runner/Maps/Runner_Map
+[2024.02.22-22.01.36:318][224]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.01.36:319][224]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.01.36:336][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.01.36:360][224]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.22-22.01.36:368][224]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.02.22-22.01.36:371][224]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.01.36:375][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003596s)
+[2024.02.22-22.01.36:375][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.003665s)
+[2024.02.22-22.01.36:375][224]LogAudio: Display: Audio Device (ID: 4) registered with world 'Runner_Map'.
+[2024.02.22-22.01.36:375][224]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.01.36:375][224]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.01.36:376][224]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.01.36:376][224]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2024.02.22-22.01.36:376][224]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.01.36:377][224]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.01.36
+[2024.02.22-22.01.36:377][224]LogWorld: Bringing up level for play took: 0.000920
+[2024.02.22-22.01.36:460][224]LogLoad: Took 0.142024 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner_Map)
+[2024.02.22-22.01.51:638][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.01.51:638][119]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.01.51:638][119]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.01.51:653][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.01.51:657][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.01.51:663][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.01.51:690][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.01.51:691][119]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.02.22-22.01.51:691][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.02.22-22.01.51:693][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.02.22-22.01.51:714][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.02.22-22.01.51:743][120]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.02.22-22.02.35:946][585]Cmd: DUPLICATE
+[2024.02.22-22.02.35:946][585]Cmd: ACTOR DUPLICATE
+[2024.02.22-22.02.37:816][687]Cmd: TRANSACTION UNDO
+[2024.02.22-22.02.37:818][687]LogEditorTransaction: Undo Duplicate Elements
+[2024.02.22-22.02.53:273][555]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.02.53:286][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.02.53:286][555]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:02:53)
+[2024.02.22-22.02.53:287][555]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.02.53:292][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005087s)
+[2024.02.22-22.02.53:292][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.005175s)
+[2024.02.22-22.02.53:322][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.02.22-22.02.53:324][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.02.53:324][555]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.02.53:325][555]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.02.53:325][555]LogPlayLevel: PIE: World Init took: (0.001720s)
+[2024.02.22-22.02.53:325][555]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.02.22-22.02.53:325][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.02.53:325][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.02.53:325][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.02.53:325][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.02.53:325][555]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.02.53:325][555]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.02.53:325][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.02.53:325][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.02.53:326][555]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.02.53:326][555]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.02.53:326][555]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.02.53:330][555]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.02.53:411][555]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.02.53:413][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.02.53:413][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.02.53:413][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.02.53:415][555]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.02.22-22.02.53:415][555]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.02.22-22.02.53:417][555]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.02.22-22.02.53:418][555]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.02.22-22.02.53:418][555]LogInit: FAudioDevice initialized with ID 5.
+[2024.02.22-22.02.53:418][555]LogAudio: Display: Audio Device (ID: 5) registered with world 'Runner_Map'.
+[2024.02.22-22.02.53:418][555]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.02.22-22.02.53:421][555]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.02.53:422][555]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.02.53
+[2024.02.22-22.02.53:422][555]LogWorld: Bringing up level for play took: 0.001012
+[2024.02.22-22.02.53:426][555]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.02.22-22.02.53:516][555]PIE: Server logged in
+[2024.02.22-22.02.53:517][555]PIE: Play in editor total start time 0,232 seconds.
+[2024.02.22-22.03.03:386][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.03.03:386][ 92]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.03.03:386][ 92]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.03.03:403][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.03.03:415][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.03.03:420][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.03.03:438][ 92]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.22-22.03.03:439][ 92]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.02.22-22.03.03:439][ 92]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.02.22-22.03.03:445][ 92]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.02.22-22.03.03:458][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.03.03:463][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.02.22-22.03.03:600][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.02.22-22.03.37:876][994]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-22.03.38:047][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.02.22-22.03.38:106][994]LogSavePackage: Moving output files for package: /Game/Runner/Maps/Runner_Map
+[2024.02.22-22.03.38:108][994]LogSavePackage: Moving '../../../../../../Users/RAZVAN/Desktop/FacultateGithub/UE5-Project/Endless_Runner_Game/Saved/Runner_Map3777BF8C48EE35FAF639989DC700D34F.tmp' to '../../../../../../Users/RAZVAN/Desktop/FacultateGithub/UE5-Project/Endless_Runner_Game/Content/Runner/Maps/Runner_Map.umap'
+[2024.02.22-22.03.38:126][994]LogFileHelpers: Saving map 'Runner_Map' took 0.140
+[2024.02.22-22.03.38:137][994]LogFileHelpers: InternalPromptForCheckoutAndSave took 260 ms (total: 2.43 sec)
+[2024.02.22-22.03.38:141][994]AssetCheck: New page: Asset Save: Runner_Map
+[2024.02.22-22.03.38:141][994]LogContentValidation: Display: Validating /Script/Engine.World /Game/Runner/Maps/Runner_Map.Runner_Map
+[2024.02.22-22.03.38:871][ 36]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.03.38:880][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.03.38:880][ 36]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:03:38)
+[2024.02.22-22.03.38:880][ 36]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.03.38:884][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004100s)
+[2024.02.22-22.03.38:884][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.004155s)
+[2024.02.22-22.03.38:906][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.02.22-22.03.38:907][ 36]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.03.38:908][ 36]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.03.38:908][ 36]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.03.38:909][ 36]LogPlayLevel: PIE: World Init took: (0.001892s)
+[2024.02.22-22.03.38:909][ 36]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.02.22-22.03.38:909][ 36]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.03.38:909][ 36]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.03.38:909][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.03.38:909][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.03.38:909][ 36]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.03.38:909][ 36]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.03.38:909][ 36]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.03.38:909][ 36]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.03.38:910][ 36]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.03.38:910][ 36]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.03.38:910][ 36]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.03.38:913][ 36]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.03.38:991][ 36]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.03.38:991][ 36]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.03.38:991][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.03.38:991][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.03.38:993][ 36]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.02.22-22.03.38:993][ 36]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.02.22-22.03.38:995][ 36]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.02.22-22.03.38:995][ 36]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.02.22-22.03.38:996][ 36]LogInit: FAudioDevice initialized with ID 6.
+[2024.02.22-22.03.38:996][ 36]LogAudio: Display: Audio Device (ID: 6) registered with world 'Runner_Map'.
+[2024.02.22-22.03.38:996][ 36]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.02.22-22.03.38:999][ 36]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.03.39:002][ 36]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.03.39
+[2024.02.22-22.03.39:002][ 36]LogWorld: Bringing up level for play took: 0.001720
+[2024.02.22-22.03.39:006][ 36]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.02.22-22.03.39:128][ 36]PIE: Server logged in
+[2024.02.22-22.03.39:130][ 36]PIE: Play in editor total start time 0,25 seconds.
+[2024.02.22-22.03.51:614][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.03.54:743][876]Cmd: exit
+[2024.02.22-22.03.54:744][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.03.54:744][876]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.03.54:745][876]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.03.54:770][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.03.54:773][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.03.54:778][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.03.54:804][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.03.54:805][876]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.02.22-22.03.54:805][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.02.22-22.03.54:813][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.02.22-22.03.54:842][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.02.22-22.03.55:629][877]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.02.22-22.04.27:676][709]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.22-22.04.28:587][762]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.04.28:596][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.04.28:596][762]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:04:28)
+[2024.02.22-22.04.28:634][762]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.04.28:637][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003161s)
+[2024.02.22-22.04.28:637][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.003210s)
+[2024.02.22-22.04.28:655][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.02.22-22.04.28:657][762]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.04.28:657][762]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.04.28:658][762]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.04.28:658][762]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2024.02.22-22.04.28:658][762]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.02.22-22.04.28:658][762]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.04.28:658][762]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.04.28:658][762]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.04.28:658][762]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.04.28:658][762]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.04.28:658][762]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.04.28:658][762]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.04.28:658][762]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.04.28:659][762]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.04.28:659][762]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.04.28:659][762]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.04.28:663][762]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.04.28:732][762]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.04.28:732][762]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.04.28:732][762]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.04.28:732][762]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.04.28:734][762]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.02.22-22.04.28:734][762]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.02.22-22.04.28:737][762]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.02.22-22.04.28:737][762]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.02.22-22.04.28:737][762]LogInit: FAudioDevice initialized with ID 7.
+[2024.02.22-22.04.28:738][762]LogAudio: Display: Audio Device (ID: 7) registered with world 'Runner_Map'.
+[2024.02.22-22.04.28:738][762]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.02.22-22.04.28:741][762]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.04.28:743][762]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.04.28
+[2024.02.22-22.04.28:743][762]LogWorld: Bringing up level for play took: 0.001176
+[2024.02.22-22.04.28:746][762]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.02.22-22.04.28:835][762]PIE: Server logged in
+[2024.02.22-22.04.28:836][762]PIE: Play in editor total start time 0,24 seconds.
+[2024.02.22-22.04.30:723][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.04.30:723][826]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.04.30:724][826]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.04.30:739][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.04.30:743][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.04.30:749][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.04.30:769][826]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.22-22.04.30:770][826]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.02.22-22.04.30:770][826]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.02.22-22.04.30:771][826]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.02.22-22.04.30:777][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.04.30:782][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.02.22-22.04.30:838][827]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.02.22-22.06.55:902][477]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.06.55:909][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.06.55:909][477]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:06:55)
+[2024.02.22-22.06.55:910][477]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.06.55:914][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003834s)
+[2024.02.22-22.06.55:914][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.003888s)
+[2024.02.22-22.06.55:934][477]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2024.02.22-22.06.55:935][477]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.06.55:935][477]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.06.55:936][477]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.06.55:936][477]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2024.02.22-22.06.55:936][477]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.02.22-22.06.55:936][477]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.06.55:936][477]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.06.55:936][477]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.06.55:936][477]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.06.55:936][477]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.06.55:936][477]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.06.55:936][477]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.06.55:936][477]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.06.55:937][477]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.06.55:937][477]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.06.55:937][477]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.06.55:939][477]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.06.56:008][477]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.06.56:008][477]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.06.56:008][477]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.06.56:008][477]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.06.56:010][477]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.02.22-22.06.56:010][477]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.02.22-22.06.56:011][477]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.02.22-22.06.56:012][477]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.02.22-22.06.56:014][477]LogInit: FAudioDevice initialized with ID 8.
+[2024.02.22-22.06.56:014][477]LogAudio: Display: Audio Device (ID: 8) registered with world 'Runner_Map'.
+[2024.02.22-22.06.56:014][477]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.02.22-22.06.56:017][477]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.06.56:018][477]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.06.56
+[2024.02.22-22.06.56:018][477]LogWorld: Bringing up level for play took: 0.001091
+[2024.02.22-22.06.56:022][477]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.02.22-22.06.56:089][477]PIE: Server logged in
+[2024.02.22-22.06.56:091][477]PIE: Play in editor total start time 0,181 seconds.
+[2024.02.22-22.06.58:491][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.06.58:491][574]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.06.58:491][574]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.06.58:504][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.06.58:507][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.06.58:512][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.06.58:533][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.06.58:533][574]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.02.22-22.06.58:533][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.02.22-22.06.58:535][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.02.22-22.06.58:545][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.02.22-22.06.58:591][575]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.02.22-22.07.00:003][656]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.07.00:015][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.07.00:015][656]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:07:00)
+[2024.02.22-22.07.00:016][656]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.07.00:020][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005195s)
+[2024.02.22-22.07.00:020][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.005272s)
+[2024.02.22-22.07.00:046][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2024.02.22-22.07.00:047][656]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.07.00:047][656]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.07.00:048][656]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.07.00:048][656]LogPlayLevel: PIE: World Init took: (0.001570s)
+[2024.02.22-22.07.00:048][656]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.02.22-22.07.00:048][656]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.07.00:048][656]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.07.00:048][656]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.07.00:048][656]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.07.00:048][656]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.07.00:048][656]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.07.00:048][656]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.07.00:048][656]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.07.00:050][656]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.07.00:050][656]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.07.00:050][656]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.07.00:053][656]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.07.00:120][656]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.07.00:120][656]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.07.00:120][656]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.07.00:120][656]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.07.00:122][656]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.02.22-22.07.00:123][656]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.02.22-22.07.00:127][656]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.02.22-22.07.00:127][656]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.02.22-22.07.00:127][656]LogInit: FAudioDevice initialized with ID 9.
+[2024.02.22-22.07.00:127][656]LogAudio: Display: Audio Device (ID: 9) registered with world 'Runner_Map'.
+[2024.02.22-22.07.00:127][656]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.02.22-22.07.00:130][656]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.07.00:131][656]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.07.00
+[2024.02.22-22.07.00:132][656]LogWorld: Bringing up level for play took: 0.000960
+[2024.02.22-22.07.00:135][656]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.02.22-22.07.00:205][656]PIE: Server logged in
+[2024.02.22-22.07.00:206][656]PIE: Play in editor total start time 0,192 seconds.
+[2024.02.22-22.07.01:550][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.07.01:551][714]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.07.01:551][714]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.07.01:566][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.07.01:569][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.07.01:578][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.07.01:601][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.07.01:601][714]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.02.22-22.07.01:601][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.02.22-22.07.01:603][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.02.22-22.07.01:621][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.02.22-22.07.01:663][715]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.02.22-22.07.37:517][682]LogSlate: Window 'Details' being destroyed
+[2024.02.22-22.08.23:535][898]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.22-22.08.24:716][965]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.08.24:725][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.08.24:725][965]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:08:24)
+[2024.02.22-22.08.24:725][965]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.08.24:729][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004020s)
+[2024.02.22-22.08.24:729][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.004076s)
+[2024.02.22-22.08.24:751][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.02.22-22.08.24:753][965]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.08.24:753][965]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.08.24:754][965]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.08.24:754][965]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2024.02.22-22.08.24:754][965]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.02.22-22.08.24:754][965]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.08.24:754][965]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.08.24:754][965]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.08.24:754][965]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.08.24:754][965]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.08.24:754][965]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.08.24:754][965]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.08.24:754][965]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.08.24:755][965]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.08.24:755][965]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.08.24:755][965]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.08.24:759][965]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.08.24:830][965]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.08.24:830][965]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.08.24:830][965]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.08.24:830][965]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.08.24:832][965]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.02.22-22.08.24:832][965]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.02.22-22.08.24:834][965]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.02.22-22.08.24:834][965]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.02.22-22.08.24:837][965]LogInit: FAudioDevice initialized with ID 10.
+[2024.02.22-22.08.24:837][965]LogAudio: Display: Audio Device (ID: 10) registered with world 'Runner_Map'.
+[2024.02.22-22.08.24:837][965]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.02.22-22.08.24:840][965]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.08.24:841][965]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.08.24
+[2024.02.22-22.08.24:842][965]LogWorld: Bringing up level for play took: 0.000929
+[2024.02.22-22.08.24:845][965]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.02.22-22.08.24:933][965]PIE: Server logged in
+[2024.02.22-22.08.24:934][965]PIE: Play in editor total start time 0,21 seconds.
+[2024.02.22-22.09.02:508][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.09.02:508][ 45]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.09.02:508][ 45]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.09.02:525][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.09.02:529][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.09.02:537][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.09.02:557][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.09.02:557][ 45]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.02.22-22.09.02:557][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.02.22-22.09.02:560][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.02.22-22.09.02:572][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.02.22-22.09.02:918][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.02.22-22.09.41:488][173]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.09.41:498][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.09.41:498][173]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:09:41)
+[2024.02.22-22.09.41:498][173]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.09.41:503][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004160s)
+[2024.02.22-22.09.41:503][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.004215s)
+[2024.02.22-22.09.41:530][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.02.22-22.09.41:532][173]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.09.41:532][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.09.41:533][173]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.09.41:534][173]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2024.02.22-22.09.41:534][173]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.02.22-22.09.41:534][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.09.41:534][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.09.41:534][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.09.41:534][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.09.41:534][173]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.09.41:534][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.09.41:534][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.09.41:534][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.09.41:535][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.09.41:535][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.09.41:535][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.09.41:540][173]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.09.41:613][173]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.09.41:614][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.09.41:614][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.09.41:614][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.09.41:614][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.02.22-22.09.41:615][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.02.22-22.09.41:616][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.02.22-22.09.41:616][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.02.22-22.09.41:617][173]LogInit: FAudioDevice initialized with ID 11.
+[2024.02.22-22.09.41:617][173]LogAudio: Display: Audio Device (ID: 11) registered with world 'Runner_Map'.
+[2024.02.22-22.09.41:617][173]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.02.22-22.09.41:619][173]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.09.41:621][173]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.09.41
+[2024.02.22-22.09.41:622][173]LogWorld: Bringing up level for play took: 0.001395
+[2024.02.22-22.09.41:624][173]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.02.22-22.09.41:701][173]PIE: Server logged in
+[2024.02.22-22.09.41:702][173]PIE: Play in editor total start time 0,204 seconds.
+[2024.02.22-22.09.44:057][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.09.44:057][255]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.09.44:058][255]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.09.44:068][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.09.44:073][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.09.44:082][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.09.44:104][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.09.44:105][255]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.02.22-22.09.44:105][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.02.22-22.09.44:107][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.02.22-22.09.44:121][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.02.22-22.09.44:201][256]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.02.22-22.09.59:965][109]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.09.59:976][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.09.59:976][109]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:09:59)
+[2024.02.22-22.09.59:976][109]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.09.59:983][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006247s)
+[2024.02.22-22.09.59:983][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.006322s)
+[2024.02.22-22.10.00:009][109]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2024.02.22-22.10.00:013][109]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.10.00:013][109]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.10.00:015][109]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.10.00:016][109]LogPlayLevel: PIE: World Init took: (0.002738s)
+[2024.02.22-22.10.00:016][109]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.02.22-22.10.00:016][109]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.10.00:016][109]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.10.00:016][109]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.10.00:016][109]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.10.00:020][109]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.10.00:020][109]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.10.00:020][109]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.10.00:020][109]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.10.00:021][109]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.10.00:021][109]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.10.00:021][109]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.10.00:027][109]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.10.00:112][109]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.10.00:113][109]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.10.00:113][109]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.10.00:113][109]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.10.00:114][109]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.02.22-22.10.00:114][109]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.02.22-22.10.00:115][109]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.02.22-22.10.00:115][109]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.02.22-22.10.00:116][109]LogInit: FAudioDevice initialized with ID 12.
+[2024.02.22-22.10.00:116][109]LogAudio: Display: Audio Device (ID: 12) registered with world 'Runner_Map'.
+[2024.02.22-22.10.00:116][109]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.22-22.10.00:119][109]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.10.00:121][109]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.10.00
+[2024.02.22-22.10.00:122][109]LogWorld: Bringing up level for play took: 0.001058
+[2024.02.22-22.10.00:126][109]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.02.22-22.10.00:228][109]PIE: Server logged in
+[2024.02.22-22.10.00:229][109]PIE: Play in editor total start time 0,253 seconds.
+[2024.02.22-22.10.02:616][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.10.02:616][207]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.10.02:616][207]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.10.02:629][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.10.02:632][207]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.10.02:638][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.10.02:658][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.10.02:659][207]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.22-22.10.02:659][207]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.22-22.10.02:661][207]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.22-22.10.02:672][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.02.22-22.10.02:749][208]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.02.22-22.10.19:242][113]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-22.10.19:250][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-22.10.19:250][113]PIE: New page: PIE session: Runner_Map (23 feb. 2024, 02:10:19)
+[2024.02.22-22.10.19:250][113]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.10.19:258][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007303s)
+[2024.02.22-22.10.19:258][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.007366s)
+[2024.02.22-22.10.19:281][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.02.22-22.10.19:283][113]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.10.19:283][113]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.10.19:285][113]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.10.19:286][113]LogPlayLevel: PIE: World Init took: (0.001707s)
+[2024.02.22-22.10.19:286][113]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.02.22-22.10.19:286][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-22.10.19:286][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-22.10.19:286][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-22.10.19:286][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-22.10.19:286][113]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-22.10.19:286][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-22.10.19:286][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-22.10.19:286][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-22.10.19:287][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-22.10.19:287][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-22.10.19:287][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-22.10.19:291][113]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-22.10.19:367][113]LogAudioMixer: Display: Using Audio Hardware Device UMC SHARP (NVIDIA High Definition Audio)
+[2024.02.22-22.10.19:368][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-22.10.19:368][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-22.10.19:369][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-22.10.19:371][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.02.22-22.10.19:371][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.02.22-22.10.19:373][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.02.22-22.10.19:373][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.02.22-22.10.19:373][113]LogInit: FAudioDevice initialized with ID 13.
+[2024.02.22-22.10.19:373][113]LogAudio: Display: Audio Device (ID: 13) registered with world 'Runner_Map'.
+[2024.02.22-22.10.19:373][113]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.22-22.10.19:377][113]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.10.19:379][113]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.10.19
+[2024.02.22-22.10.19:379][113]LogWorld: Bringing up level for play took: 0.001335
+[2024.02.22-22.10.19:382][113]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.02.22-22.10.19:476][113]PIE: Server logged in
+[2024.02.22-22.10.19:477][113]PIE: Play in editor total start time 0,227 seconds.
+[2024.02.22-22.10.20:224][116]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066775 > MaxSimulationTimeStep (0.050) for 'BP_RunnerCharacter_C_0', movement 'Walking'
+[2024.02.22-22.10.25:676][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.10.28:664][573]Cmd: restartlevel
+[2024.02.22-22.10.28:685][573]LogNet: Browse: /Game/Runner/Maps/Runner_Map?restart
+[2024.02.22-22.10.28:685][573]LogLoad: LoadMap: /Game/Runner/Maps/Runner_Map
+[2024.02.22-22.10.28:685][573]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.10.28:687][573]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.10.28:701][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.10.28:751][573]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.22-22.10.28:757][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.02.22-22.10.28:762][573]LogPlayLevel: Creating play world package: /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.10.28:765][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003249s)
+[2024.02.22-22.10.28:765][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner/Maps/Runner_Map.Runner_Map to /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map (0.003317s)
+[2024.02.22-22.10.28:765][573]LogAudio: Display: Audio Device (ID: 13) registered with world 'Runner_Map'.
+[2024.02.22-22.10.28:766][573]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-22.10.28:766][573]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-22.10.28:766][573]LogAIModule: Creating AISystem for world Runner_Map
+[2024.02.22-22.10.28:766][573]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2024.02.22-22.10.28:766][573]LogLoad: Game class is 'BP_RunnerGameMode_C'
+[2024.02.22-22.10.28:768][573]LogWorld: Bringing World /Game/Runner/Maps/UEDPIE_0_Runner_Map.Runner_Map up for play (max tick rate 60) at 2024.02.23-00.10.28
+[2024.02.22-22.10.28:768][573]LogWorld: Bringing up level for play took: 0.001052
+[2024.02.22-22.10.28:857][573]LogLoad: Took 0.171010 seconds to LoadMap(/Game/Runner/Maps/UEDPIE_0_Runner_Map)
+[2024.02.22-22.11.03:212][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.11.06:934][749]Cmd: exit
+[2024.02.22-22.11.06:941][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.11.06:941][749]LogWorld: BeginTearingDown for /Game/Runner/Maps/UEDPIE_0_Runner_Map
+[2024.02.22-22.11.06:941][749]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.11.06:963][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.11.06:967][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-22.11.06:977][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.11.07:004][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-22.11.07:004][749]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.22-22.11.07:004][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.22-22.11.07:006][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.22-22.11.07:024][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.02.22-22.11.08:234][750]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.02.22-22.15.30:843][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.02.22-22.15.30:949][600]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Runner/Maps/Runner_Map_Auto1
+[2024.02.22-22.15.30:950][600]LogSavePackage: Moving '../../../../../../Users/RAZVAN/Desktop/FacultateGithub/UE5-Project/Endless_Runner_Game/Saved/Runner_Map_Auto11216D41A401737CDDC8A34A711CAE9E7.tmp' to '../../../../../../Users/RAZVAN/Desktop/FacultateGithub/UE5-Project/Endless_Runner_Game/Saved/Autosaves/Game/Runner/Maps/Runner_Map_Auto1.umap'
+[2024.02.22-22.15.30:970][600]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/RAZVAN/Desktop/FacultateGithub/UE5-Project/Endless_Runner_Game/Saved/Autosaves/Game/Runner/Maps/Runner_Map_Auto1.umap is in the /Temp path, will not scan.
+[2024.02.22-22.15.30:973][600]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Runner/Maps/Runner_Map' took 0.159
+[2024.02.22-22.15.30:973][600]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.159
+[2024.02.22-22.18.49:335][196]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speaker (Realtek(R) Audio), InstanceID=1
+[2024.02.22-22.18.49:550][196]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=29932
+[2024.02.22-22.18.50:891][200]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{04bebcda-0db0-4b7a-ae5a-04bc03df6345}, Name=Speaker (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1078.47
+[2024.02.22-22.18.50:891][200]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.22-22.18.50:894][200]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.22-22.21.31:384][682]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=UMC SHARP (NVIDIA High Definition Audio), InstanceID=1
+[2024.02.22-22.21.31:582][682]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=29932
+[2024.02.22-22.21.35:962][683]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000067B55047C00) on the [0x0000067B368CB300, 3D] queue has not completed after 5.000007 seconds.
+[2024.02.22-22.21.36:582][683]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.02.22-22.21.41:583][683]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.02.22-22.21.46:584][683]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.02.22-22.21.49:392][683]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000067B55048D00) on the [0x0000067B368CB300, 3D] queue has not completed after 18.126479 seconds.
+[2024.02.22-22.21.49:406][683]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000067B55046000) on the [0x0000067B368CB300, 3D] queue has not completed after 18.138515 seconds.
+[2024.02.22-22.21.49:572][683]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{03770dae-ff58-47d9-bf7d-ed4267449f7d}, Name=UMC SHARP (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=55.68
+[2024.02.22-22.21.49:572][683]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.22-22.21.49:594][683]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.22-22.21.50:044][684]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=29932
+[2024.02.22-22.21.50:300][686]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{03770dae-ff58-47d9-bf7d-ed4267449f7d}, Name=UMC SHARP (NVIDIA High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=106.98
+[2024.02.22-22.21.50:300][686]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.22-22.21.50:306][686]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.22-22.22.00:201][241]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2024.02.22-22.22.01:817][241]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-22.22.01:842][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-22.22.02:059][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.02.22-22.22.02:118][241]LogSavePackage: Moving output files for package: /Game/Runner/Maps/Runner_Map
+[2024.02.22-22.22.02:119][241]LogSavePackage: Moving '../../../../../../Users/RAZVAN/Desktop/FacultateGithub/UE5-Project/Endless_Runner_Game/Saved/Runner_MapC35615684AA838789F4211B48F80DE79.tmp' to '../../../../../../Users/RAZVAN/Desktop/FacultateGithub/UE5-Project/Endless_Runner_Game/Content/Runner/Maps/Runner_Map.umap'
+[2024.02.22-22.22.02:171][241]LogFileHelpers: Saving map 'Runner_Map' took 0.193
+[2024.02.22-22.22.02:182][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 2.77 sec)
+[2024.02.22-22.22.02:183][241]LogStall: Shutdown...
+[2024.02.22-22.22.02:196][241]LogStall: Shutdown complete.
+[2024.02.22-22.22.02:482][241]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.02:490][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.22.02:777][241]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.02:777][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.22.02:914][241]LogSlate: Window 'Details' being destroyed
+[2024.02.22-22.22.02:955][241]LogSlate: Window 'Endless_Runner_Game - Unreal Editor' being destroyed
+[2024.02.22-22.22.03:311][241]AssetCheck: New page: Asset Save: Runner_Map
+[2024.02.22-22.22.03:312][241]LogContentValidation: Display: Validating /Script/Engine.World /Game/Runner/Maps/Runner_Map.Runner_Map
+[2024.02.22-22.22.03:325][242]Cmd: QUIT_EDITOR
+[2024.02.22-22.22.03:325][242]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.02.22-22.22.03:349][242]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.02.22-22.22.03:353][242]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.02.22-22.22.03:354][242]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.02.22-22.22.03:394][242]LogWorld: UWorld::CleanupWorld for Runner_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.03:397][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-22.22.03:471][242]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.02.22-22.22.04:274][242]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.02.22-22.22.04:274][242]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.02.22-22.22.04:274][242]LogAudio: Display: Audio Device unregistered from world 'Runner_Map'.
+[2024.02.22-22.22.04:278][242]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.02.22-22.22.04:302][242]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.02.22-22.22.04:304][242]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.02.22-22.22.04:328][242]LogAudio: Display: Audio Device Manager Shutdown
+[2024.02.22-22.22.04:331][242]LogWindowsTextInputMethodSystem: Activated input method: Engleză (Statele Unite) - (Keyboard).
+[2024.02.22-22.22.04:349][242]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.02.22-22.22.04:350][242]LogExit: Preparing to exit.
+[2024.02.22-22.22.04:510][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2024.02.22-22.22.04:517][242]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:517][242]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:531][242]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:532][242]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:532][242]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:532][242]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:532][242]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:532][242]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:533][242]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:533][242]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:533][242]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:533][242]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:534][242]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:534][242]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:534][242]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:534][242]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:534][242]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:534][242]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:535][242]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.04:536][242]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.22-22.22.05:912][242]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-22.22.06:391][242]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.02.22-22.22.07:017][242]LogExit: Editor shut down
+[2024.02.22-22.22.07:045][242]LogExit: Transaction tracking system shut down
+[2024.02.22-22.22.09:533][242]LogExit: Object subsystem successfully closed.
+[2024.02.22-22.22.09:565][242]LogShaderCompilers: Display: ================================================
+[2024.02.22-22.22.09:565][242]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.22-22.22.09:565][242]LogShaderCompilers: Display: Total job queries 42, among them cache hits 18 (42.86%)
+[2024.02.22-22.22.09:565][242]LogShaderCompilers: Display: Tracking 24 distinct input hashes that result in 18 distinct outputs (75.00%)
+[2024.02.22-22.22.09:566][242]LogShaderCompilers: Display: RAM used: 554,85 KiB of 409,60 MiB budget. Usage: 0.13%
+[2024.02.22-22.22.09:566][242]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.22-22.22.09:566][242]LogShaderCompilers: Display: Shaders Compiled: 14
+[2024.02.22-22.22.09:566][242]LogShaderCompilers: Display: Jobs assigned 14, completed 14 (100%)
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Average time worker was idle: 2.46 s
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.60 s
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Job execution time: average 0.92 s, max 1.31 s
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Job life time (pending + execution): average 1.02 s, max 1.34
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Shader code size: average 42,903 KiB, min 30,363 KiB, max 60,766 KiB
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.94 s
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Average processing rate: 4.76 jobs/sec
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Total thread time: 6,658 s
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Total thread preprocess time: 0,884 s
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Percentage time preprocessing: 13.27%
+[2024.02.22-22.22.09:567][242]LogShaderCompilers: Display: Effective parallelization: 2.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.40% of total time (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 9.00% of total time (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 8.18% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 8.18% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 8.14% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.02.22-22.22.09:568][242]LogShaderCompilers: Display: ================================================
+[2024.02.22-22.22.09:658][242]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.02.22-22.22.10:103][242]LogVirtualization: UE::Virtualization was shutdown
+[2024.02.22-22.22.10:625][242]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1054)
+[2024.02.22-22.22.10:626][242]LogModuleManager: Shutting down and abandoning module Voice (1052)
+[2024.02.22-22.22.10:626][242]LogModuleManager: Shutting down and abandoning module MaterialEditor (1050)
+[2024.02.22-22.22.10:626][242]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1048)
+[2024.02.22-22.22.10:627][242]LogModuleManager: Shutting down and abandoning module AddContentDialog (1046)
+[2024.02.22-22.22.10:644][242]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1045)
+[2024.02.22-22.22.10:644][242]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1042)
+[2024.02.22-22.22.10:644][242]LogModuleManager: Shutting down and abandoning module SceneOutliner (1040)
+[2024.02.22-22.22.10:645][242]LogModuleManager: Shutting down and abandoning module StatusBar (1038)
+[2024.02.22-22.22.10:646][242]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1036)
+[2024.02.22-22.22.10:646][242]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1034)
+[2024.02.22-22.22.10:648][242]LogModuleManager: Shutting down and abandoning module StatsViewer (1032)
+[2024.02.22-22.22.10:650][242]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1030)
+[2024.02.22-22.22.10:650][242]LogModuleManager: Shutting down and abandoning module AutomationWorker (1028)
+[2024.02.22-22.22.10:651][242]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1026)
+[2024.02.22-22.22.10:652][242]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1024)
+[2024.02.22-22.22.10:652][242]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1022)
+[2024.02.22-22.22.10:652][242]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1020)
+[2024.02.22-22.22.10:652][242]LogModuleManager: Shutting down and abandoning module WebMMedia (1018)
+[2024.02.22-22.22.10:652][242]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (1016)
+[2024.02.22-22.22.10:655][242]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (1014)
+[2024.02.22-22.22.10:661][242]LogModuleManager: Shutting down and abandoning module SequenceRecorder (1013)
+[2024.02.22-22.22.10:662][242]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (1010)
+[2024.02.22-22.22.10:662][242]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (1008)
+[2024.02.22-22.22.10:662][242]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (1006)
+[2024.02.22-22.22.10:664][242]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (1004)
+[2024.02.22-22.22.10:664][242]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (1002)
+[2024.02.22-22.22.10:664][242]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (1000)
+[2024.02.22-22.22.10:664][242]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (998)
+[2024.02.22-22.22.10:664][242]LogModuleManager: Shutting down and abandoning module TextureAlignMode (996)
+[2024.02.22-22.22.10:665][242]LogModuleManager: Shutting down and abandoning module BspMode (994)
+[2024.02.22-22.22.10:666][242]LogModuleManager: Shutting down and abandoning module GeometryMode (992)
+[2024.02.22-22.22.10:667][242]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (990)
+[2024.02.22-22.22.10:667][242]LogModuleManager: Shutting down and abandoning module SmartSnapping (988)
+[2024.02.22-22.22.10:667][242]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (986)
+[2024.02.22-22.22.10:670][242]LogModuleManager: Shutting down and abandoning module WaveTableEditor (984)
+[2024.02.22-22.22.10:673][242]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (982)
+[2024.02.22-22.22.10:673][242]LogModuleManager: Shutting down and abandoning module RigVMEditor (980)
+[2024.02.22-22.22.10:676][242]LogModuleManager: Shutting down and abandoning module GooglePADEditor (978)
+[2024.02.22-22.22.10:676][242]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (976)
+[2024.02.22-22.22.10:676][242]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (974)
+[2024.02.22-22.22.10:676][242]LogModuleManager: Shutting down and abandoning module PlanarCut (972)
+[2024.02.22-22.22.10:676][242]LogModuleManager: Shutting down and abandoning module FractureEngine (970)
+[2024.02.22-22.22.10:676][242]LogModuleManager: Shutting down and abandoning module CharacterAI (968)
+[2024.02.22-22.22.10:677][242]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (966)
+[2024.02.22-22.22.10:678][242]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (964)
+[2024.02.22-22.22.10:679][242]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (962)
+[2024.02.22-22.22.10:687][242]LogModuleManager: Shutting down and abandoning module IKRigEditor (960)
+[2024.02.22-22.22.10:690][242]LogModuleManager: Shutting down and abandoning module ControlRigEditor (958)
+[2024.02.22-22.22.10:693][242]LogModuleManager: Shutting down and abandoning module SessionServices (956)
+[2024.02.22-22.22.10:696][242]LogModuleManager: Shutting down and abandoning module MeshPaint (954)
+[2024.02.22-22.22.10:698][242]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (952)
+[2024.02.22-22.22.10:699][242]LogModuleManager: Shutting down and abandoning module PlacementMode (951)
+[2024.02.22-22.22.10:701][242]LogModuleManager: Shutting down and abandoning module FoliageEdit (948)
+[2024.02.22-22.22.10:703][242]LogModuleManager: Shutting down and abandoning module LandscapeEditor (946)
+[2024.02.22-22.22.10:709][242]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (944)
+[2024.02.22-22.22.10:709][242]LogModuleManager: Shutting down and abandoning module ActorPickerMode (942)
+[2024.02.22-22.22.10:709][242]LogModuleManager: Shutting down and abandoning module ViewportSnapping (940)
+[2024.02.22-22.22.10:709][242]LogModuleManager: Shutting down and abandoning module EditorWidgets (938)
+[2024.02.22-22.22.10:710][242]LogModuleManager: Shutting down and abandoning module ViewportInteraction (936)
+[2024.02.22-22.22.10:710][242]LogModuleManager: Shutting down and abandoning module ClothPainter (934)
+[2024.02.22-22.22.10:712][242]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (933)
+[2024.02.22-22.22.10:714][242]LogModuleManager: Shutting down and abandoning module WidgetRegistration (930)
+[2024.02.22-22.22.10:715][242]LogModuleManager: Shutting down and abandoning module LogVisualizer (928)
+[2024.02.22-22.22.10:719][242]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (926)
+[2024.02.22-22.22.10:720][242]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (924)
+[2024.02.22-22.22.10:721][242]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (923)
+[2024.02.22-22.22.10:722][242]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (921)
+[2024.02.22-22.22.11:724][242]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (918)
+[2024.02.22-22.22.11:725][242]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (916)
+[2024.02.22-22.22.11:725][242]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (914)
+[2024.02.22-22.22.11:725][242]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (912)
+[2024.02.22-22.22.11:725][242]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (910)
+[2024.02.22-22.22.11:725][242]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (908)
+[2024.02.22-22.22.11:726][242]LogModuleManager: Shutting down and abandoning module AnimationSettings (906)
+[2024.02.22-22.22.11:726][242]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (904)
+[2024.02.22-22.22.11:726][242]LogModuleManager: Shutting down and abandoning module CSVtoSVG (902)
+[2024.02.22-22.22.11:726][242]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (900)
+[2024.02.22-22.22.11:727][242]LogModuleManager: Shutting down and abandoning module EditorConfig (898)
+[2024.02.22-22.22.11:727][242]LogModuleManager: Shutting down and abandoning module EditorFramework (896)
+[2024.02.22-22.22.11:727][242]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (894)
+[2024.02.22-22.22.11:729][242]LogModuleManager: Shutting down and abandoning module TraceInsights (892)
+[2024.02.22-22.22.11:738][242]MemoryProfiler: Shutdown
+[2024.02.22-22.22.11:741][242]NetworkingProfiler: Shutdown
+[2024.02.22-22.22.11:741][242]LoadingProfiler: Shutdown
+[2024.02.22-22.22.11:742][242]TimingProfiler: Shutdown
+[2024.02.22-22.22.11:748][242]LogModuleManager: Shutting down and abandoning module TraceServices (891)
+[2024.02.22-22.22.11:750][242]LogModuleManager: Shutting down and abandoning module TraceAnalysis (890)
+[2024.02.22-22.22.11:750][242]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (886)
+[2024.02.22-22.22.11:750][242]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (885)
+[2024.02.22-22.22.11:750][242]LogModuleManager: Shutting down and abandoning module InputBindingEditor (882)
+[2024.02.22-22.22.11:751][242]LogModuleManager: Shutting down and abandoning module MergeActors (880)
+[2024.02.22-22.22.11:752][242]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (878)
+[2024.02.22-22.22.11:753][242]LogModuleManager: Shutting down and abandoning module LocalizationService (877)
+[2024.02.22-22.22.11:754][242]LogModuleManager: Shutting down and abandoning module HardwareTargeting (874)
+[2024.02.22-22.22.11:754][242]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (872)
+[2024.02.22-22.22.11:754][242]LogModuleManager: Shutting down and abandoning module UndoHistory (870)
+[2024.02.22-22.22.11:755][242]LogModuleManager: Shutting down and abandoning module XmlParser (868)
+[2024.02.22-22.22.11:755][242]LogModuleManager: Shutting down and abandoning module Blutility (866)
+[2024.02.22-22.22.11:755][242]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (864)
+[2024.02.22-22.22.11:757][242]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (863)
+[2024.02.22-22.22.11:759][242]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (860)
+[2024.02.22-22.22.11:759][242]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (859)
+[2024.02.22-22.22.11:759][242]LogModuleManager: Shutting down and abandoning module SettingsEditor (856)
+[2024.02.22-22.22.11:760][242]LogModuleManager: Shutting down and abandoning module ProjectLauncher (854)
+[2024.02.22-22.22.11:761][242]LogModuleManager: Shutting down and abandoning module SessionFrontend (852)
+[2024.02.22-22.22.11:761][242]LogModuleManager: Shutting down and abandoning module ProfilerClient (850)
+[2024.02.22-22.22.11:761][242]LogModuleManager: Shutting down and abandoning module DeviceManager (848)
+[2024.02.22-22.22.11:762][242]LogModuleManager: Shutting down and abandoning module AutomationController (846)
+[2024.02.22-22.22.11:764][242]LogModuleManager: Shutting down and abandoning module AutomationWindow (844)
+[2024.02.22-22.22.11:767][242]LogModuleManager: Shutting down and abandoning module Layers (842)
